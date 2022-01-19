@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admins.AdminsUserADD">
+
+    <TextView
+        android:id="@+id/adminUserProfileNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User name:"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfileNameInput"
+        app:layout_constraintTop_toTopOf="@+id/adminUserProfileLabelLineLower" />
+
+    <TextView
+        android:id="@+id/adminUserProfileSurnameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User surname:"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfileSurnameInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileNameInput" />
+
+    <TextView
+        android:id="@+id/adminUserProfileUsernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User username:"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfileUsernameInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileSurnameInput" />
+
+    <TextView
+        android:id="@+id/adminUserProfileEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User email:"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfileEmailInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileUsernameInput" />
+
+    <TextView
+        android:id="@+id/adminUserProfilePasswordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User password:"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfilePasswordInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileEmailInput" />
+
+    <TextView
+        android:id="@+id/adminUserProfileMoneyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="User money:"
+        app:layout_constraintStart_toEndOf="@+id/adminUserProfileSetPositionSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfilePasswordInput" />
+
+    <EditText
+        android:id="@+id/adminUserProfileNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter user name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileNameLabel" />
+
+    <EditText
+        android:id="@+id/adminUserProfileSurnameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter user surname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileSurnameLabel" />
+
+    <EditText
+        android:id="@+id/adminUserProfileUsernameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter user username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileUsernameLabel" />
+
+    <EditText
+        android:id="@+id/adminUserProfileEmailInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter user email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileEmailLabel" />
+
+    <EditText
+        android:id="@+id/adminUserProfilePasswordInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter user password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfilePasswordLabel" />
+
+    <TextView
+        android:id="@+id/adminUserProfileLabelLineUpper"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintBottom_toTopOf="@+id/adminUserProfilePhotoInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/adminUserProfileLabelLineLower"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfilePhotoInput" />
+
+    <TextView
+        android:id="@+id/adminUserProfileLabelLineLower2"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileSetLogged" />
+
+    <Button
+        android:id="@+id/adminUserProfileSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#983030"
+        android:fontFamily="sans-serif-light"
+        android:shadowColor="#983030"
+        android:text="Save profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabelLineLower2" />
+
+    <Button
+        android:id="@+id/adminUserProfileCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/adminUserProfileSaveButton" />
+
+    <ImageView
+        android:id="@+id/adminUserProfilePhotoInput"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabel"
+        app:srcCompat="@drawable/add_user_photo" />
+
+    <TextView
+        android:id="@+id/adminUserProfileLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Create a new user"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/adminUserProfileSetPositionSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:checked="false"
+        android:showText="true"
+        android:splitTrack="false"
+        android:text="User ADMIN:"
+        android:textOff="no"
+        android:textOn="yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfilePasswordInput"
+        tools:checked="false" />
+
+    <TextView
+        android:id="@+id/adminUserProfileSetLogged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="User LOGGED: NO"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfileSetPositionSwitch"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileSetPositionSwitch" />
+
+    <EditText
+        android:id="@+id/adminUserProfileMoneyInput"
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:hint="Enter user money"
+        android:inputType="number"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="@+id/adminUserProfileMoneyLabel"
+        app:layout_constraintTop_toBottomOf="@+id/adminUserProfileMoneyLabel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#FF5722"
+tools:context="com.example.reservation.TicketB">
+
+<TextView
+    android:id="@+id/ticket_b_departure_time"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="4:00 PM"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/textView3"
+    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+<TextView
+    android:id="@+id/ticket_b_departure_gate_closes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="3:00 PM"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/textView13"
+    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+<TextView
+    android:id="@+id/adminUserProfileLabelLineUpper2"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="40dp"
+    android:background="#000"
+    android:gravity="center_horizontal"
+    android:paddingTop="5dip"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+<TextView
+    android:id="@+id/adminUserProfileLabelLineUpper3"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="20dp"
+    android:background="#000"
+    android:gravity="center_horizontal"
+    android:paddingTop="5dip"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_b_departure_city" />
+
+<TextView
+    android:id="@+id/adminUserProfileLabelLineUpper4"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="20dp"
+    android:background="#000"
+    android:gravity="center_horizontal"
+    android:paddingTop="5dip"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_b_passenger_nationality" />
+
+<TextView
+    android:id="@+id/adminUserProfileLabelLineUpper5"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="20dp"
+    android:background="#000"
+    android:gravity="center_horizontal"
+    android:paddingTop="5dip"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_b_passport_number" />
+
+<TextView
+    android:id="@+id/ticket_b_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="231"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintEnd_toStartOf="@+id/ticket_b_flight_for_country"
+    app:layout_constraintStart_toEndOf="@+id/ticket_b_departure_country"
+    app:layout_constraintTop_toTopOf="@+id/ticket_b_departure_country" />
+
+<ImageView
+    android:id="@+id/ticket_b_back_button"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="30dp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabelLineUpper5"
+    app:srcCompat="@drawable/back_icon"
+    tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ticket_b_next_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:foregroundGravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ticket_b_back_button"
+        app:srcCompat="@drawable/next_icon"
+        tools:ignore="MissingConstraints" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="300dp"
+    android:layout_height="120dp"
+    android:layout_marginTop="40dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/bar_code" />
+
+<TextView
+    android:id="@+id/ticket_b_departure_country"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="20dp"
+    android:text="Srbija"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabelLineUpper2" />
+
+<TextView
+    android:id="@+id/ticket_b_flight_for_country"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="130dp"
+    android:text="Nemacka"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toEndOf="@+id/ticket_b_departure_country"
+    app:layout_constraintTop_toTopOf="@+id/ticket_b_departure_country" />
+
+<TextView
+    android:id="@+id/ticket_b_departure_city"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Beograd"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/ticket_b_departure_country"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_b_departure_country" />
+
+<TextView
+    android:id="@+id/ticket_b_passenger_name_surname"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="20dp"
+    android:text="Milovanovic Branko"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabelLineUpper3" />
+
+<TextView
+    android:id="@+id/ticket_b_departure_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="12/19/2021"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/textView2"
+    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+<TextView
+    android:id="@+id/ticket_b_passport_number"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="21321321321"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/textView14"
+    app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+<TextView
+    android:id="@+id/ticket_a_passenger_name_surname3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="24A"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/ticket_a_passenger_nationality2"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_a_passenger_nationality2" />
+
+<TextView
+    android:id="@+id/ticket_b_passenger_nationality"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Srbija"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/ticket_b_passenger_name_surname"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_b_passenger_name_surname" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginTop="20dp"
+    android:text="Date:"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabelLineUpper4" />
+
+<TextView
+    android:id="@+id/textView14"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Passport number:"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/textView2"
+    app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:text="Departure:"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/textView13"
+    app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="40dp"
+    android:text="Gate closes:"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/textView2" />
+
+<TextView
+    android:id="@+id/ticket_a_passenger_nationality2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="40dp"
+    android:text="Seat:"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/adminUserProfileLabelLineUpper3" />
+
+<TextView
+    android:id="@+id/ticket_b_flight_for_city"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Stuttgart"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:shadowColor="@color/black"
+    android:shadowDx="-1"
+    android:shadowDy="-1"
+    android:shadowRadius="1"
+    app:layout_constraintStart_toStartOf="@+id/ticket_b_flight_for_country"
+    app:layout_constraintTop_toBottomOf="@+id/ticket_b_flight_for_country" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

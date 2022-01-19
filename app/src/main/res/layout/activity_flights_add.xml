@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.flights.FlightsADD">
+
+    <Button
+        android:id="@+id/adminAddFlightCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:shadowColor="#2196F3"
+        android:text="cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/adminAddFlightSaveButton" />
+
+    <Button
+        android:id="@+id/adminAddFlightSaveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#983030"
+        android:fontFamily="sans-serif-light"
+        android:shadowColor="#983030"
+        android:text="Add flight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightLine2" />
+
+    <EditText
+        android:id="@+id/adminAddDepartureFromInputCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the country name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddDepartureFromLabel" />
+
+    <EditText
+        android:id="@+id/adminAddDepartureFromInputCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the city name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddDepartureFromInputCountry" />
+
+    <EditText
+        android:id="@+id/adminAddFlightForInputCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the country name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightForLabel" />
+
+    <EditText
+        android:id="@+id/adminAddFlightForInputCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the city name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightForInputCountry" />
+
+    <TextView
+        android:id="@+id/adminAddDepartureFromLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Departure from:"
+        app:layout_constraintStart_toStartOf="@+id/adminAddDepartureFromInputCountry"
+        app:layout_constraintTop_toTopOf="@+id/adminAddFlightLine" />
+
+    <TextView
+        android:id="@+id/adminAddFlightForLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fllight for:"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightForInputCountry"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddDepartureDateAndTimeLabel" />
+
+    <TextView
+        android:id="@+id/adminAddFlightPriceBusinessLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Price business ticket:"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightPriceBusinessInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightForDateAndTimeLabel" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Number of business tickets:"
+        app:layout_constraintStart_toEndOf="@+id/adminAddFlightPriceBusinessLabel"
+        app:layout_constraintTop_toTopOf="@+id/adminAddFlightPriceBusinessLabel" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of first class tickets:"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightNumberBusinessTicketInput"
+        app:layout_constraintTop_toTopOf="@+id/adminAddFlightPriceFirstClassLabel" />
+
+    <TextView
+        android:id="@+id/adminAddFlightPriceFirstClassLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Price first class ticket:"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightPriceFirstClassInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightPriceBusinessInput" />
+
+    <TextView
+        android:id="@+id/adminAddFlightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Add a new flight"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/adminAddFlightLine"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightLabel" />
+
+    <TextView
+        android:id="@+id/adminAddFlightLine2"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightPriceFirstClassInput" />
+
+    <EditText
+        android:id="@+id/adminAddFlightPriceBusinessInput"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:ems="10"
+        android:hint="Enter price ticket"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightPriceBusinessLabel" />
+
+    <EditText
+        android:id="@+id/adminAddFlightNumberBusinessTicketInput"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter tickets number"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/adminAddFlightNumberFirstClassTicketInput"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter tickets number"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/adminAddFlightPriceFirstClassInput"
+        android:layout_width="150sp
+"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter price ticket"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightPriceBusinessInput"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightPriceFirstClassLabel" />
+
+    <Button
+        android:id="@+id/adminAddDepartureDateAndTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Set date and time "
+        android:shadowColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/adminAddDepartureFromInputCity"
+        app:layout_constraintStart_toStartOf="@+id/adminAddDepartureFromInputCity"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddDepartureFromInputCity" />
+
+    <Button
+        android:id="@+id/adminAddFlightForDateAndTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Set date and time "
+        android:shadowColor="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/adminAddFlightForInputCity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightForInputCity"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightForInputCity" />
+
+    <TextView
+        android:id="@+id/adminAddDepartureDateAndTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and time departure"
+        app:layout_constraintEnd_toEndOf="@+id/adminAddDepartureDateAndTime"
+        app:layout_constraintStart_toStartOf="@+id/adminAddDepartureDateAndTime"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddDepartureDateAndTime" />
+
+    <TextView
+        android:id="@+id/adminAddFlightForDateAndTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and time flight for"
+        app:layout_constraintEnd_toEndOf="@+id/adminAddFlightForDateAndTime"
+        app:layout_constraintStart_toStartOf="@+id/adminAddFlightForDateAndTime"
+        app:layout_constraintTop_toBottomOf="@+id/adminAddFlightForDateAndTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.profile.EditProfileActivity">
+
+    <TextView
+        android:id="@+id/editProfileLabelLineUpper"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editProfileImage" />
+
+    <TextView
+        android:id="@+id/editProfileLabelLineLower"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintBottom_toBottomOf="@+id/editProfileImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/editProfileLabelLineLower2"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileUsernameInput" />
+
+    <ImageView
+        android:id="@+id/editProfileImage"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileLabel"
+        app:srcCompat="@drawable/add_user_photo" />
+
+    <TextView
+        android:id="@+id/editProfileLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Edit profile"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editProfileNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileNameLabel" />
+
+    <TextView
+        android:id="@+id/editProfileNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Name:"
+        app:layout_constraintStart_toStartOf="@+id/editProfileNameInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileImage" />
+
+    <TextView
+        android:id="@+id/editProfileSurnameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Surname:"
+        app:layout_constraintStart_toStartOf="@+id/editProfileSurnameInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileNameInput" />
+
+    <EditText
+        android:id="@+id/editProfileSurnameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your surname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editProfileNameInput"
+        app:layout_constraintStart_toStartOf="@+id/editProfileNameInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileSurnameLabel" />
+
+    <TextView
+        android:id="@+id/editProfileEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="E-mail:"
+        app:layout_constraintStart_toStartOf="@+id/editProfileEmailInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileSurnameInput" />
+
+    <EditText
+        android:id="@+id/editProfileEmailInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your e-mail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/editProfileSurnameInput"
+        app:layout_constraintStart_toStartOf="@+id/editProfileSurnameInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileEmailLabel" />
+
+    <TextView
+        android:id="@+id/editProfileUsernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Username:"
+        app:layout_constraintStart_toStartOf="@+id/editProfileUsernameInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileEmailInput" />
+
+    <EditText
+        android:id="@+id/editProfileUsernameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your username"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editProfileEmailInput"
+        app:layout_constraintStart_toStartOf="@+id/editProfileEmailInput"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileUsernameLabel" />
+
+    <Button
+        android:id="@+id/editProfileCancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:text="cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editProfileButtonSave" />
+
+    <Button
+        android:id="@+id/editProfileButtonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#983030"
+        android:fontFamily="sans-serif-light"
+        android:shadowColor="#983030"
+        android:text="Save profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editProfileLabelLineLower2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

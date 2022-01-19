@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/add_user_photo.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/flight_for_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/flight_from_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/mail_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/password_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/red_button_bg.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/round_white.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/user_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/drawable/user_username_icon.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_admins_user_add.xml" value="0.5" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_admins_users_crud.xml" value="0.3500905797101449" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_adminss.xml" value="0.20625" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_check_in_ticket.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_edit_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_edit_profile_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_flights_add.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_flights_crud.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_flights_date_time_picker.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_flights_edit.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_flights_list_adapter.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_list_ticket_reservation.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_registration.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_ticket.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_ticket_a.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/activity_ticket_b.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/city_list_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/custom_alertdialog.xml" value="0.259375" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/flights_crud.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/fragment_message.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/fragment_search_departure_flight.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/fragment_search_flight.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/fragment_search_ticket.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/nav_header.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/nav_header_dashboard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/round_button.xml" value="0.259375" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/row_search_ticket.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/row_ticket.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/layout/users_crud.xml" value="0.31521739130434784" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/menu/city_list_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/menu/drawer_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/menu/flight_city_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/mipmap-anydpi-v26/bar_code.xml" value="0.2375" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23385416666666667" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/mipmap-anydpi-v26/plane.xml" value="0.3828125" />
+        <entry key="..\:/Users/Bane/Desktop/Faks/ANDROID_PROJEKAT/app/src/main/res/xml/root_preferences.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

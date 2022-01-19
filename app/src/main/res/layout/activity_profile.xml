@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.profile.ProfileActivity"
+    android:background="@drawable/air_background">
+
+    <TextView
+        android:id="@+id/profileLabelLineUpper"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/profileLabelLineLower"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/profileLabelLineLower2"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileBalanceLabel" />
+
+    <TextView
+        android:id="@+id/profileLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Profile"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/profileButtonBack"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableLeft="@drawable/back_icon"
+        android:shadowColor="#983030"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="150sp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileLabel">
+
+        <ImageView
+            android:id="@+id/profileUserImage"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/custom_default_icon3" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/profileEditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="#983030"
+        android:fontFamily="sans-serif-light"
+        android:shadowColor="#983030"
+        android:text="Edit profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileChangePasswordButton" />
+
+    <TextView
+        android:id="@+id/profileNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        app:layout_constraintEnd_toEndOf="@+id/profileUsernameLabel"
+        app:layout_constraintStart_toStartOf="@+id/profileUsernameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileUsernameLabel" />
+
+    <TextView
+        android:id="@+id/profileSurnameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Surname"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        app:layout_constraintEnd_toEndOf="@+id/profileNameLabel"
+        app:layout_constraintStart_toStartOf="@+id/profileNameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileNameLabel" />
+
+    <TextView
+        android:id="@+id/profileEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="E-Mail"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        app:layout_constraintEnd_toEndOf="@+id/profileSurnameLabel"
+        app:layout_constraintStart_toStartOf="@+id/profileSurnameLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileSurnameLabel" />
+
+    <TextView
+        android:id="@+id/profileBalanceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="Account balance"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/profileEmailLabel"
+        app:layout_constraintStart_toStartOf="@+id/profileEmailLabel"
+        app:layout_constraintTop_toBottomOf="@+id/profileEmailLabel" />
+
+    <TextView
+        android:id="@+id/profileUsernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="-1"
+        android:shadowDy="-1"
+        android:shadowRadius="1"
+        android:text="Username"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profileLabel" />
+
+    <Button
+        android:id="@+id/profileChangePasswordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Change password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toEndOf="@+id/profileEditButton"
+        app:layout_constraintTop_toBottomOf="@+id/profileLabelLineLower2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

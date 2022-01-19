@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.singiair">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SingiAir">
+        <activity
+            android:name="com.example.reservation.TicketB"
+            android:exported="false" />
+        <activity
+            android:name="com.example.reservation.TicketA"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tickets.CheckInTicketActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.tickets.ListTicketReservationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.flights.FlightsCRUD"
+            android:exported="false" />
+        <activity
+            android:name="com.example.flights.FlightsADD"
+            android:exported="false" />
+        <activity
+            android:name="com.example.flights.FlightsEDIT"
+            android:exported="false" />
+        <activity
+            android:name="com.example.admins.AdminsUserADD"
+            android:exported="false" />
+        <activity
+            android:name="com.example.admins.AdminsUserEDIT"
+            android:exported="false" />
+        <activity
+            android:name="com.example.admins.AdminsUsersCRUD"
+            android:exported="false" />
+        <activity
+            android:name="com.example.profile.EditProfilePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
