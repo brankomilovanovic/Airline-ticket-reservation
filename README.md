@@ -3,7 +3,7 @@
 ### About
 “**Airline ticket reservation**” is an android application for booking plane tickets, as the name suggests.
 <br>
-It allows users to book plane tickets, check booked tickets, and pay money to the account.
+It allows users to book plane tickets, check-in booked tickets, and pay money to the account.
 <br><hr>
 ### Features
 Easy flight search, booking, check-in and cancellation.
