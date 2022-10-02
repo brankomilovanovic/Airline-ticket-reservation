@@ -53,10 +53,9 @@ You can install this application to test on your android smartphone. To download
 
 Download will be started automatically. After then install it on your android device. Open the application, create an account. That's it.
 <br>
-<br>
-Or
-<br>
-<br>
+<hr>
+
+### How to build?
 Clone the app into your android studio.
 <br>
 > Android Studio > File > New > Project from Version Control<br>
@@ -64,5 +63,5 @@ Version control: **Git**<br>
 URL: **https://github.com/brankomilovanovic/Airline_ticket_reservation**
 
 <hr>
-<br>
+
 Regards, **Branko**
