@@ -59,10 +59,10 @@ Or
 <br>
 Clone the app into your android studio.
 <br>
-Android Studio > File > New > Project from Version Control
-<br>
-Version control: **Git**
-<br>
+> Android Studio > File > New > Project from Version Control<br>
+Version control: **Git**<br>
 URL: **https://github.com/brankomilovanovic/Airline_ticket_reservation**
-<br><hr>
+
+<hr>
+<br>
 Regards, **Branko**
