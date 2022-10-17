@@ -7,7 +7,7 @@ It allows users to book plane tickets, check-in booked tickets, and pay money to
 <br><hr>
 ### Features
 Easy flight search, booking, check-in and cancellation.
-<br>a
+<br>
 Included:
 - User Databases (SQLite)
 - User Login & Sign up
