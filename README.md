@@ -30,11 +30,12 @@ Included:
 
 ### Preview:
 <p align="center">
+<portfolio><img src="https://github.com/brankomilovanovic/Airline-ticket-reservation/assets/87083680/d8efd2ff-cf4b-48d8-96e4-bc300b4c899f" width="800" /></portfolio><br>
 <img src="https://user-images.githubusercontent.com/87083680/193268594-196c6002-1865-4712-b630-d4a65947d1cb.jpg" width="250" />
 <img src="https://user-images.githubusercontent.com/87083680/193268581-d1ef00d9-2ae8-4c10-b4b7-78206bfecda5.jpg" width="250" />
 <img src="https://user-images.githubusercontent.com/87083680/193268593-1b1b55ad-41dd-4bbe-9a7d-73b092580688.jpg" width="250" />
 <img src="https://user-images.githubusercontent.com/87083680/193268587-3e0f3bc4-c647-49b2-92e3-858f7585715a.jpg" width="250" />
-<portfolio><img src="https://user-images.githubusercontent.com/87083680/193269212-b4da9842-a809-474f-99eb-5fbd23d02098.jpg" width="250" /></portfolio>
+<img src="https://user-images.githubusercontent.com/87083680/193269212-b4da9842-a809-474f-99eb-5fbd23d02098.jpg" width="250" />
 <img src="https://user-images.githubusercontent.com/87083680/193603159-cdf600a1-eb80-4725-95d7-b0d4d03d71bc.jpg" width="250" />
 <img src="https://user-images.githubusercontent.com/87083680/193268597-d73dda82-01e2-4c52-b24c-e4a018fdd790.jpg" width="250" />
 <img src="https://user-images.githubusercontent.com/87083680/193268601-f0ff03ed-8c56-4aa4-89f6-7352420c7a31.jpg" width="250" />
